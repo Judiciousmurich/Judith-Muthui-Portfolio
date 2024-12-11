@@ -29,10 +29,6 @@ const About = () => {
             .<br /> I specialize in creating scalable, user-friendly applications and innovative web solutions using modern technologies
           </p>
           
-          <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
-          </p>
 
           {list && (
             <>
