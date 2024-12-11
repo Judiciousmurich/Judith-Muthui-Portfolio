@@ -1,19 +1,11 @@
 <h1 align="center">
- https://judith-muthui-portfolio.netlify.app/
+judith-muthui-portfolio
 
 ![image](https://github.com/user-attachments/assets/aa00f62f-d049-4c38-a42e-e5365f2d60ce)
 
 
-<p align="center">
-  <a href="https://choosealicense.com/licenses/mit/">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen"/ >
-  </a>
-  <img src="https://img.shields.io/badge/Version-2.0.0-blue"/ >
-</p>
 
-<br>
-
-[![My Portfolio](https://user-images.githubusercontent.com/68834718/214532356-7c56cdbd-0136-4d24-a532-d27e160ae72d.png)](https://vatsalsinghkv.vercel.app/)
+  
 
 ## Table of Contents
 
