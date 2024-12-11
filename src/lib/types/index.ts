@@ -15,14 +15,7 @@ export type CTAType = {
 };
 
 // env
-export type ExperienceType = {
-  role: string;
-  company: string;
-  companyUrl: string;
-  started: Date | string;
-  upto: Date | 'present' | string;
-  tasks: string[];
-};
+
 
 export type ProjectType = {
   id: string;
@@ -36,12 +29,7 @@ export type ProjectType = {
 };
 
 
-export interface FeaturedProjectType
-  extends Omit<ProjectType, 'year' | 'repo'> {
-  description: string;
-  repo?: string;
-  tasks?: string;
-}
+
 
 export type StringKeyValueType = {
   [link: string]: string;

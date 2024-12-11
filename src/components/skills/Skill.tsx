@@ -2,7 +2,7 @@
 import { SoftwareSkillType } from '@/lib/types';
 import { getId } from '@/lib/utils/helper';
 
-import { ListItem, ShowLottie, SkillIcon } from '@/components';
+import {ShowLottie, SkillIcon } from '@/components';
 
 import { motion, MotionProps } from 'framer-motion';
 
@@ -41,7 +41,8 @@ const Skill = ({
 
         <ul className="space-y-2 text-base">
           {points.map((point) => (
-            <ListItem key={getId()}>{point}</ListItem>
+            // <ListItem key={getId()}>{point}</ListItem>
+            <></>
           ))}
         </ul>
       </div>

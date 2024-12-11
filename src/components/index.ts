@@ -3,8 +3,7 @@ import Button from './buttons/Button';
 import DarkModeButton from './buttons/DarkModeButton';
 import Link from './buttons/Link';
 import NavButton from './buttons/NavButton';
-import ListItem from './lists/ListItem';
-import TabList from './lists/TabList';
+
 import Skill from './skills/Skill';
 import SkillIcon from './skills/SkillIcon';
 import SocialIcon from './socials/SocialIcon';
@@ -22,7 +21,7 @@ export {
   Cursor,
   DarkModeButton,
   Link,
-  ListItem,
+  
   NavButton,
   ProjectCard,
   ShowLottie,
@@ -31,6 +30,6 @@ export {
   SkillIcon,
   SocialIcon,
   SocialLink,
-  TabList,
+ 
   Wrapper,
 };
