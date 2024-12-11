@@ -1,58 +1,37 @@
-// // import { FeaturedProjectsSectionType } from '@/lib/types/sections';
-// import { getId } from '@/lib/utils/helper';
+'use client';
 
-// const featuredProjectsSection: FeaturedProjectsSectionType = {
-//   title: "projects i've worked on",
-//   projects: [
-//     {
-//       id: getId(),
-//       name: 'GetLifeGuard',
-//       description: 'An E-Commerce platform for Self-Defense Keychain.',
-//       tasks:
-//         "As a freelancer, I understood the client's requirements and executed a plan to develop and design an e-commerce platform, including the frontend UI, backend setup with database, APIs, and integration with payment platforms.",
-//       url: 'https://www.getlifegard.com/',
-//       img: 'https://www.getlifegard.com/images/og.png',
-//       tags: [
-//         'NextJs 14',
-//         'TypeScript',
-//         'TailwindCSS',
-//         'ShadCN',
-//         'Prisma',
-//         'Stripe',
-//       ],
-//     },
-//     {
-//       id: getId(),
-//       name: 'Velvi Matrimony',
-//       description:
-//         'A platform that redefines the way individuals find their life partners.',
-//       tasks:
-//         'As a freelancer, I developed this project by planning, communicating with the client, gathering feedback, implementing UI & pages, and integrating real-time data fetching with filtering functionality.',
-//       url: 'https://velvi.vercel.app/',
-//       img: 'https://i.postimg.cc/tRS4GvzJ/Screenshot-2024-02-27-at-5-48-49-PM.png',
-//       tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'APIs'],
-//     },
-//     {
-//       id: getId(),
-//       name: 'Integra',
-//       description: 'An AI-Powered Leads Generation Platform.',
-//       tasks:
-//         'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-//       url: 'https://www.integraleads.xyz/',
-//       img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-//       tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Express'],
-//     },
-//     {
-//       id: getId(),
-//       name: 'Drafton',
-//       description: 'The AI-powered platform that simplifies proposal creation.',
-//       tasks:
-//         'Implemented NextAuth authentication, integrated Mailchimp for newsletter subscription, developed a custom hook for dark mode, created UI components in the Dashboard, and used Notion as a CMS for the blogs page.',
-//       url: 'https://www.drafton.io/',
-//       img: 'https://i.postimg.cc/4N6dsGcm/Screenshot-2024-06-17-at-11-05-22-PM.png',
-//       tags: ['Open AI', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
-//     },
-//   ],
-// };
+import featuredProjectsSection from '@/lib/content/featured-projects';
 
-// export default featuredProjectsSection;
+import { Wrapper } from '@/components';
+import FeaturedProject from '@/components/ui/FeaturedProject';
+
+import { getSectionAnimation } from '@/styles/animations';
+
+const FeaturedProjects = () => {
+  return (
+    <Wrapper id="projects" {...getSectionAnimation}>
+      <div className="mb-20 space-y-3 text-center lg:text-left">
+        <h2 className="heading-secondary !mb-0 capitalize">
+          {featuredProjectsSection.title}
+        </h2>
+
+        <p className="font-mono text-xs text-accent capitalize lg:hidden lg:mb-2.5">
+          featured projects
+        </p>
+      </div>
+
+      <div className="space-y-10 md:space-y-16 lg:space-y-36">
+        {featuredProjectsSection.projects.map((project, i) => (
+          <FeaturedProject
+            key={project.id}
+            align={i % 2 === 0 ? 'right' : 'left'}
+            {...project}
+            {...getSectionAnimation}
+          />
+        ))}
+      </div>
+    </Wrapper>
+  );
+};
+
+export default FeaturedProjects;
