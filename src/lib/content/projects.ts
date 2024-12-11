@@ -56,6 +56,16 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
+      name: 'vroom-master',
+      url: 'https://image-animations.vercel.app/',
+      repo: 'https://github.com/Judiciousmurich/vroom-master',
+      img: 'https://github-production-user-asset-6210df.s3.amazonaws.com/68834718/252267106-857c5341-1106-4e84-b7e6-80a668a20ba8.png',
+      year: 2023,
+      tags: ['Typescript'],
+      description: 'A type-safe application to manage car-related data efficiently, built with TypeScript to ensure high performance and reliability.',
+    },
+    {
+      id: getId(),
       name: 'notes-nest',
       url: 'https://buttons-animations-kv.vercel.app/',
       repo: 'https://github.com/Judiciousmurich/notes-nest',
@@ -66,18 +76,6 @@ export const projectsSection: ProjectsSectionType = {
     },
     
     
-    
-   
-    {
-      id: getId(),
-      name: 'vroom-master',
-      url: 'https://image-animations.vercel.app/',
-      repo: 'https://github.com/Judiciousmurich/vroom-master',
-      img: 'https://github-production-user-asset-6210df.s3.amazonaws.com/68834718/252267106-857c5341-1106-4e84-b7e6-80a668a20ba8.png',
-      year: 2023,
-      tags: ['Typescript'],
-      description: 'A type-safe application to manage car-related data efficiently, built with TypeScript to ensure high performance and reliability.',
-    },
     {
       id: getId(),
       name: 'chat-bot',
