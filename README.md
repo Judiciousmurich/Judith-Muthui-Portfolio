@@ -1,5 +1,6 @@
 <h1 align="center">
-judith-muthui-portfolio
+Portfolio
+
 
 ![image](https://github.com/user-attachments/assets/aa00f62f-d049-4c38-a42e-e5365f2d60ce)
 
