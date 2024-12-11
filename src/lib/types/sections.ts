@@ -1,6 +1,6 @@
 import {
   CTAType,
-  
+  ExperienceType,
   NavLinkType,
   ProjectType,
   SocialLinkType,
@@ -45,6 +45,17 @@ type SkillType = {
   softwareSkills: SoftwareSkillType[];
 };
 
+export interface SkillsSectionType extends Section {
+  skills: SkillType[];
+}
+
+export interface ExperienceSectionType extends Section {
+  experiences: ExperienceType[];
+}
+
+export interface ProjectsSectionType extends Section {
+  projects: ProjectType[];
+}
 export interface SkillsSectionType extends Section {
   skills: SkillType[];
 }
