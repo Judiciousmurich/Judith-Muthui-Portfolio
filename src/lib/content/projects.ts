@@ -26,6 +26,16 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
+      name: 'online-qr-code attendance',
+      url: 'https://github.com/Judiciousmurich/online-qr-attendance',
+      repo: 'https://github.com/Judiciousmurich/online-qr-attendance',
+      img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
+      year: 2022,
+      tags: ['Typescript', 'React', 'Node.js', 'MySQL', 'QR Code'],
+      description: 'A web-based system simplifying attendance with QR codes. Users scan unique codes to mark presence, featuring automatic updates, real-time tracking, and secure management.',
+    },
+    {
+      id: getId(),
       name: 'chat-app',
       url: 'https://github.com/Judiciousmurich/chat-app/',
       repo: 'https://github.com/Judiciousmurich/chat-app',
@@ -34,16 +44,7 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['React', 'Tailwind', 'Node.js', 'MySQL', 'RESTful API'],
       description: 'A dynamic chat app built to help users connect and find remote job opportunities, featuring real-time messaging and responsive design.',
     },
-    {
-      id: getId(),
-      name: 'online-qr-code attendance',
-      url: 'https://github.com/Judiciousmurich/online-qr-attendance',
-      repo: 'https://github.com/Judiciousmurich/online-qr-attendance',
-      img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
-      year: 2022,
-      tags: ['Typescript', 'React', 'Node.js', 'MySQL', 'QR Code'],
-      description: 'A web-based attendance system that leverages QR codes to simplify the process of marking attendance. Users can scan a unique QR code to register their presence, with automatic updates and real-time tracking.',
-    },
+   
     {
       id: getId(),
       name: 'Portfolio',
@@ -75,7 +76,7 @@ export const projectsSection: ProjectsSectionType = {
       description: 'A user-friendly note-taking app where you can manage your notes with ease, featuring a clean interface and smooth animations.',
     },
     
-    
+
     {
       id: getId(),
       name: 'chat-bot',
