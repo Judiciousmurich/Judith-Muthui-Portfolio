@@ -28,8 +28,7 @@ const About = () => {
             
             .<br /> I specialize in creating scalable, user-friendly applications and innovative web solutions using modern technologies
           </p>
-          
-
+        
           {list && (
             <>
               <p>{list.title}</p>
