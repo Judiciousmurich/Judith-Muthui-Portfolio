@@ -5,20 +5,6 @@ Portfolio
 ![image](https://github.com/user-attachments/assets/aa00f62f-d049-4c38-a42e-e5365f2d60ce)
 
 
-
-  
-
-## Table of Contents
-
-- [Sections](#sections)
-- [Built With](#built-with)
-- [How to use](#how-to-use)
-- [Contributing](#contributing)
-- [Continuous Development](#continuous-development)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-- [Show Your Support](#show-your-support)
-
 ## Sections
 
 - Hero
