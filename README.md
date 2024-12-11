@@ -1,9 +1,8 @@
 <h1 align="center">
-  vatsalsinghkv.vercel.app
-</h1>
-<p align="center">
-  A portfolio website i.e. <a href="https://vatsalsinghkv.vercel.app" target="_blank">vatsalsinghkv.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
-</p>
+ https://judith-muthui-portfolio.netlify.app/
+
+![image](https://github.com/user-attachments/assets/aa00f62f-d049-4c38-a42e-e5365f2d60ce)
+
 
 <p align="center">
   <a href="https://choosealicense.com/licenses/mit/">
