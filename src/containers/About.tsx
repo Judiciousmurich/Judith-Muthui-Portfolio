@@ -28,9 +28,10 @@ const About = () => {
           </p>
           <p>
             I specialize in creating scalable, user-friendly applications and innovative web solutions using modern technologies
+            
           </p>
 
-          {list && (
+          {/* {list && (
             <>
               <p>{list.title}</p>
               <ul className="grid w-2/3 grid-cols-2 gap-1 text-sm">
@@ -40,7 +41,7 @@ const About = () => {
                 ))}
               </ul>
             </>
-          )}
+          )} */}
         </div>
         <AuthorImage src={img} alt={author.name} />
       </main>
