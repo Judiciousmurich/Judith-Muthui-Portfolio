@@ -57,6 +57,16 @@ export const projectsSection: ProjectsSectionType = {
     
     {
       id: getId(),
+      name: 'Portfolio',
+      url: 'https://judith-muthui-portfolio.netlify.app/',
+      repo: 'https://github.com/Judiciousmurich/Judith-Muthui-Portfolio',
+      img: 'https://user-images.githubusercontent.com/68834718/258852895-df5c6da7-a698-40fb-97c3-a5474314cb85.png',
+      year: 2023,
+      tags: ['React', 'Tailwind', 'Node.js', 'MySQL', 'RESTful API'],
+      description: 'This portfolio showcases my expertise as a Node.js developer, featuring skills, projects, and certifications. Built with React, TypeScript, and Tailwind CSS.',
+    },
+    {
+      id: getId(),
       name: 'vroom-master',
       url: 'https://image-animations.vercel.app/',
       repo: 'https://github.com/Judiciousmurich/vroom-master',
