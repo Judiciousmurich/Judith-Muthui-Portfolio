@@ -1,7 +1,6 @@
 import {
   CTAType,
   ExperienceType,
-  FeaturedProjectType,
   NavLinkType,
   ProjectType,
   SocialLinkType,
