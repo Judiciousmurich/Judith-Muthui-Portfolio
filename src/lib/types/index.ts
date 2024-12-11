@@ -32,7 +32,9 @@ export type ProjectType = {
   img: string;
   tags: string[];
   repo: string;
+  description: string; // Add this field
 };
+
 
 export interface FeaturedProjectType
   extends Omit<ProjectType, 'year' | 'repo'> {
