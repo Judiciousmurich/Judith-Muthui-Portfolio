@@ -5,7 +5,7 @@ export const navbarSection: NavbarSectionType = {
   navLinks: [
     { name: 'about', url: '/#about' },
     { name: 'skills', url: '/#skills' },
-    { name: 'projects', url: '/# my projects' },
+    { name: 'projects', url: '/#my-projects' },
     { name: 'contact', url: '/#contact' },
   ],
   cta: {
