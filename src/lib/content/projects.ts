@@ -26,16 +26,6 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
-      name: 'notes-nest',
-      url: 'https://buttons-animations-kv.vercel.app/',
-      repo: 'https://github.com/Judiciousmurich/notes-nest',
-      img: 'https://buttons-animations-kv.vercel.app/og.png',
-      year: 2023,
-      tags: ['React', 'Tailwind', 'Node.js', 'MySQL', 'RESTful API'],
-      description: 'A user-friendly note-taking app where you can manage your notes with ease, featuring a clean interface and smooth animations.',
-    },
-    {
-      id: getId(),
       name: 'chat-app',
       url: 'https://github.com/Judiciousmurich/chat-app/',
       repo: 'https://github.com/Judiciousmurich/chat-app',
@@ -44,6 +34,17 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['React', 'Tailwind', 'Node.js', 'MySQL', 'RESTful API'],
       description: 'A dynamic chat app built to help users connect and find remote job opportunities, featuring real-time messaging and responsive design.',
     },
+    {
+      id: getId(),
+      name: 'notes-nest',
+      url: 'https://buttons-animations-kv.vercel.app/',
+      repo: 'https://github.com/Judiciousmurich/notes-nest',
+      img: 'https://buttons-animations-kv.vercel.app/og.png',
+      year: 2023,
+      tags: ['React', 'Tailwind', 'Node.js', 'MySQL', 'RESTful API'],
+      description: 'A user-friendly note-taking app where you can manage your notes with ease, featuring a clean interface and smooth animations.',
+    },
+    
     {
       id: getId(),
       name: 'online-qr-code attendance',
