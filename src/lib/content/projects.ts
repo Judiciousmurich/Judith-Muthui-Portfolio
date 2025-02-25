@@ -16,6 +16,16 @@ export const projectsSection: ProjectsSectionType = {
     },
     {
       id: getId(),
+      name: 'Designer-store',
+      url: 'https://designer-store-nextjs.vercel.app/',
+      repo: 'https://github.com/Judiciousmurich/designer-store',
+      img: 'https://user-images.githubusercontent.com/68834718/258852895-df5c6da7-a698-40fb-97c3-a5474314cb85.png',
+      year: 2023,
+      tags: ['React', 'Nextjs13', 'Stripes', 'Appwrite', 'Sveltekit','Angular','Shadcn-ui'],
+      description: 'Designer Store is an e-commerce website where users explore and shop the latest trends in fashion and technology using multiple frameworks.',
+    },
+    {
+      id: getId(),
       name: 'Dream-House-App',
       url: 'https://beautiful-animations-kv.vercel.app/',
       repo: 'https://github.com/Judiciousmurich/Dream-House-App',
@@ -32,7 +42,7 @@ export const projectsSection: ProjectsSectionType = {
       img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
       year: 2022,
       tags: ['Typescript', 'React', 'Node.js', 'MySQL', 'QR Code'],
-      description: 'A web-based system simplifying attendance with QR codes. Users scan unique codes to mark presence, featuring automatic updates, real-time tracking, and secure management.',
+      description: 'A web-based system simplifying attendance with QR codes, enabling real-time tracking, automatic updates, and secure management for users.',
     },
     {
       id: getId(),
