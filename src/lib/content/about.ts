@@ -14,8 +14,16 @@ export const aboutSection: AboutSectionType = {
       'CSS Animations',
       'NodeJs',
       'ExpressJs',
+      'Django',
+      'PHP (Laravel 11)',
       'MySQL',
-      'PostgreSQL'
+      'PostgreSQL',
+      'MongoDB',
+      'Microsoft SQL',
+      'Docker',
+      'CI/CD',
+      'Azure'
+
     ],
   },
   img: '/gal.jpg',

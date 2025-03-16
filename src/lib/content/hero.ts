@@ -2,12 +2,13 @@ import { HeroSectionType } from '@/lib/types/sections';
 import { resumeFileName } from '@/lib/utils/config';
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Software Developer',
+  subtitle: 'Full-Stack Developer',
   title: 'Hello i am',
   tagline: 'Judith Muthui',
   description:
-    "Skilled Full-Stack Developer with expertise in Node.js, TypeScript, RESTful APIs, authentication, database optimization, and scalable systems. Proficient in asynchronous programming, event-driven architecture, and Git for collaboration..",
-  specialText: '',
+    "I'm a passionate Full-Stack Developer with experience in building scalable and high-performance web applications using React.js, Next.js, Vue 3, TypeScript, TailwindCSS, Node.js, Express.js, Django, PHP (Laravel 11), MySQL, PostgreSQL, MongoDB, Microsoft SQL, and cloud platforms like AWS, Azure, and Linux.",
+specialText: "Currently available for freelance.",
+
   cta: {
     title: 'see my resume',
     url: `/${resumeFileName}`,

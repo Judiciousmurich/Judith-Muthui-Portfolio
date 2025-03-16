@@ -7,6 +7,7 @@ import {
   Projects,
   Skills,
 } from '@/containers';
+import Experience from '@/containers/Experience';
 
 import type { NextPage } from 'next';
 
@@ -23,8 +24,8 @@ const Home: NextPage = () => {
         <Hero />
         <About />
         <Skills />
-        
-        <Projects />
+        <Experience/>
+                <Projects />
         <Contact />
       </Layout>
     </>
