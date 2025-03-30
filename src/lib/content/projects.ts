@@ -37,7 +37,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'online-qr-code attendance',
-      url: 'https://github.com/Judiciousmurich/online-qr-attendance',
+      url: 'https://judith-qr-attendance-4hce.vercel.app/signin',
       repo: 'https://github.com/Judiciousmurich/online-qr-attendance',
       img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
       year: 2022,
