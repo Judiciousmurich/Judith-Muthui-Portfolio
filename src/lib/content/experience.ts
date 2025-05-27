@@ -7,8 +7,8 @@ export const experienceSection: ExperienceSectionType = {
       company: 'Wish To Wear',
       companyUrl: 'https://www.linkedin.com/company/wish-to-wear/',
       role: 'Node.js Developer ',
-      started: 'Jan 2025',
-      upto: '',
+      started: 'Dec 2024',
+      upto: 'May 2025',
       tasks: [
         'Built and optimized a scalable e-commerce platform using React, Next.js & TypeScript.',
         'Integrated third-party payment gateways and APIs for seamless transactions.',
