@@ -21,7 +21,7 @@ export const experienceSection: ExperienceSectionType = {
       companyUrl: 'https://www.linkedin.com/company/kenya-ict-board/',
       role: 'Software Engineer',
       started: 'Aug 2023',
-      upto: 'Dec 2024',
+      upto: 'Nov 2024',
       tasks: [
         'Developed and maintained backend systems using Node.js & PostgreSQL.',
         'Assisted in API design, integration, and troubleshooting for government services.',
