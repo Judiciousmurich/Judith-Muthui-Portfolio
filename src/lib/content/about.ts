@@ -9,6 +9,8 @@ export const aboutSection: AboutSectionType = {
     items: [
       'NextJs',
       'React',
+      'Vuejs',
+      'JavaScript',
       'TypeScript',
       'TailwindCSS',
       'CSS Animations',
